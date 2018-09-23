@@ -1,10 +1,7 @@
-
-# coding: utf-8
-
-# # Data Parsing Regex
-# Ref : https://docs.oracle.com/cd/E41183_01/DR/Date_Format_Types.html
-
-# In[7]:
+"""
+Given multiple format of dates, the code below is able to determine the appropriate
+regex and extract date information
+"""
 
 
 date_field_token_values = ['17/02/2009','February 17, 2009','2009/2/17','2009Feb17']
